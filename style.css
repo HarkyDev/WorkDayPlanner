@@ -63,12 +63,9 @@ textarea {
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
+  font-size: 30px;
 }
 
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all 0.3s ease-in-out;
-}
 /* my code ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .schedule-container{
   display: flex;
@@ -81,7 +78,6 @@ textarea {
 margin: 2px 0px 2px;
 display: flex; 
 min-height: 200px;
-
 }
 
 .timer-container{
@@ -106,10 +102,12 @@ min-height: 200px;
   min-width: 10vw;
   background-color: rgb(61, 141, 245);
 }
-
-#floppy {
-font-size: 30px;
+.saveBtn:hover {
+  background-color: rgb(45, 127, 235);
+  transition: 0.5s;
+  font-size: 35px
 }
+
 
 /* <div class="schedule-card">
 <div class="timer-container"> 12 AM</div>
