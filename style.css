@@ -69,22 +69,46 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
-
+/* my code ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .schedule-container{
   display: flex;
-  min-width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 }
 .schedule-card{
-background-color: red;
+margin: 2px 0px 2px;
 display: flex; 
+min-height: 200px;
+
 }
 
 .timer-container{
-  background-color: yellow;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-width: 160px;
+  border-top: 1px solid black;
+  border-bottom: 0.5px solid black;
 }
 
 .eventText{
-  background-color: rgb(185, 14, 134);
+  outline: none;
+  border: none;
+  min-width: 70vw;
+  background-color: rgb(206, 206, 206);
+}
+
+.saveBtn {
+  cursor: pointer;
+  border: none;
+  min-width: 10vw;
+  background-color: rgb(61, 141, 245);
+}
+
+#floppy {
+font-size: 30px;
 }
 
 /* <div class="schedule-card">
