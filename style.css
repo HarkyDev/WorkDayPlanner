@@ -89,11 +89,11 @@ min-height: 200px;
   border-bottom: 0.5px solid black;
 }
 
-.eventText{
+#eventText{
   outline: none;
   border: none;
   min-width: 70vw;
-  background-color: rgb(206, 206, 206);
+
 }
 
 .saveBtn {
@@ -106,6 +106,19 @@ min-height: 200px;
   background-color: rgb(45, 127, 235);
   transition: 0.5s;
   font-size: 35px
+}
+
+
+.currentTime{
+  background-color: red;
+}
+
+.pastTime{
+  background-color: rgb(83, 83, 83);
+}
+
+.futureTime{
+  background-color: rgb(29, 250, 0);
 }
 
 
