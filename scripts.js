@@ -7,6 +7,7 @@ var inputArea = document.getElementById('eventText')
 
 
 
+currentDay.textContent = m.format("dddd MMM Mo")
 
 
 
@@ -22,18 +23,22 @@ console.log (time13.tagName)
 
 console.log ("CURRENT 24 HOURS TIME: " , currentTime)
 
-
+ //////////////////// CARD TIME FUNCTION 
  for (var i = 9; i < 18; i++) {
-     console.log (i)
+     if (i < currentTime)
+        document.getElementById(i).classList.add("pastTime")
+    else if (i == currentTime)
         document.getElementById(i).classList.add("currentTime")
- }
+    else if (i > currentTime)
+        document.getElementById(i).classList.add("futureTime")
+            
+ } 
 
 
 
 
 
 
-currentDay.textContent = m.format("dddd MMM Mo")
 
 
 
