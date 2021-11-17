@@ -89,7 +89,7 @@ min-height: 200px;
   border-bottom: 0.5px solid black;
 }
 
-#eventText{
+textarea {
   outline: none;
   border: none;
   min-width: 70vw;

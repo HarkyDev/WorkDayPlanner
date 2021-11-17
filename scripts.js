@@ -1,25 +1,32 @@
 const m = moment();
-var currentTime = m.format("hh")
+var currentTime = m.format("H")
 const currentDay = document.getElementById('currentDay')
 const timerContainerValue = document.getElementById("timer-container")
 var timeValue = document.getElementById('timeValue')
 var inputArea = document.getElementById('eventText')
-var trueTimeValue = timeValue.innerHTML
 
 
 
 
 
-console.log("this is our time value " + trueTimeValue)
-console.log("this is momentJS's time Value " + currentTime)
 
-if (trueTimeValue == currentTime){
-    console.log("this is passing")
-    inputArea.classList.add('currentTime');
-}
-else {
-    console.log("Values do not match")
-}
+
+
+//////////////////// IDS FOR TIME CARDS
+var time13 = document.getElementById('13')
+console.log (time13.tagName)
+
+
+
+
+
+console.log ("CURRENT 24 HOURS TIME: " , currentTime)
+
+
+ for (var i = 9; i < 18; i++) {
+     console.log (i)
+        document.getElementById(i).classList.add("currentTime")
+ }
 
 
 
