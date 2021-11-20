@@ -15,6 +15,6 @@ https://github.com/HarkyDev/WorkDayPlanner/blob/main/images/QuizGame%20Screensho
 
 
 ## LINKS
-- REPO https://harkydev.github.io/WorkDayPlanner/
-- DEPLOYED SITE https://github.com/HarkyDev/WorkDayPlanner
+- REPO https://github.com/HarkyDev/WorkDayPlanner
+- DEPLOYED SITE https://harkydev.github.io/WorkDayPlanner/
 
